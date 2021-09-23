@@ -6,17 +6,17 @@
 	<title>loftblog</title>
 </head>
 <body>
-	<form action="" method="">
+	<form action="" method="post">
 		<label>
 			фИО
-			<input type="text" name="fio" placeholder="Иванов Иван Иванович">
+			<input required type="text" name="fio" placeholder="Иванов Иван Иванович">
 
 			<br>
 			<br>
 
 			<label>
 				Возраст
-				<input type="number" name="age">
+				<input required type="number" name="age">
 			</label>
 
 			<br>
@@ -24,7 +24,7 @@
 
 			<label>
 				Email
-				<input type="email" name="email">
+				<input required type="email" name="email">
 			</label>
 
 			<br>
@@ -86,6 +86,7 @@
 			<br>
 			<br>
 
+			<button >отрравить</button>
 		</label>
 	</form>
 </body>
